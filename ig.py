@@ -3,8 +3,20 @@ import urllib
 from urllib import request
 from bs4 import BeautifulSoup
 import datetime
-
+import os
 def ShowHelp():
+	
+	logo = """ _           _                                            _ _
+(_)_ __  ___| |_ __ _  __ _ _ __ __ _ _ __ ___         __| | |
+| | '_ \/ __| __/ _` |/ _` | '__/ _` | '_ ` _ \ _____ / _` | |
+| | | | \__ \ || (_| | (_| | | | (_| | | | | | |_____| (_| | |
+|_|_| |_|___/\__\__,_|\__, |_|  \__,_|_| |_| |_|      \__,_|_|
+                      |___/"""
+	
+	
+	print(logo)
+	
+	print('')
 	print('Insta Image Downloader')
 	print('')
 	print('Usage:')
